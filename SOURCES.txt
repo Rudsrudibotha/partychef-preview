@@ -1,13 +1,8 @@
-All images (in images/) are PartyChef, LLC's own photos, downloaded from the business's Wix site
-(https://gregschmelz.wixsite.com/mysite) on 2026-09-28, resized and EXIF-stripped. No stock photos used.
-
-images/grill-steaks.jpg      <- /why-party-chef   static.wixstatic.com/media/4403b0_20ae7a064cc5428f8cbe96fbff9b7319~mv2_d_4032_3024_s_4_2.jpg (orig. "IMG_5530[1].JPG")
-images/chef-greg.jpg         <- /about-3          static.wixstatic.com/media/4403b0_013be12844ee4a3ea1dd99526e28f297~mv2_d_3024_4032_s_4_2.jpg
-images/pork-chop-dinner.jpg  <- /team-3           static.wixstatic.com/media/4403b0_0c77c220f0be4e4292c375e1a1dee9ed~mv2.jpeg (smoked pork chop dinner)
-images/creme-brulee.jpg      <- /team-3           static.wixstatic.com/media/4403b0_10a8ac9456bf4221a122fe54b731dec1~mv2.jpeg
-images/key-lime-pie.jpg      <- /team-3           static.wixstatic.com/media/4403b0_aff4752be857479091064ee002d45a92~mv2.jpeg
-images/meat-display.jpg      <- /why-party-chef   static.wixstatic.com/media/4403b0_c560087b3d684268ab2fbd70e09520a1~mv2.jpg (orig. "Meat display.jpg")
-images/partychef-logo.png    <- home page         static.wixstatic.com/media/4403b0_46844f94fc2244448f1df1c7707b8649~mv2.jpg (orig. "New Logo partychef (10-26-2020).jpg"), converted to transparent PNG
-
-Not used: filet mignon / sirloin images on /gourmet-night and /why-party-chef (look like supplier/stock shots),
-a low-res crème brûlée duplicate, and a Wix template marble texture.
+Image credits, PartyChef
+images/grill-steaks.jpg — Grilled steaks — source: PartyChef, LLC
+images/chef-greg.jpg — Chef Greg — source: PartyChef, LLC
+images/pork-chop-dinner.jpg — Smoked pork chop dinner — source: PartyChef, LLC
+images/creme-brulee.jpg — Crème brûlée dessert — source: PartyChef, LLC
+images/key-lime-pie.jpg — Key lime pie dessert — source: PartyChef, LLC
+images/meat-display.jpg — Display of prepared meats — source: PartyChef, LLC
+images/partychef-logo.png — PartyChef logo — source: PartyChef, LLC

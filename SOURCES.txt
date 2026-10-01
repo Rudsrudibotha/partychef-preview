@@ -1,6 +1,7 @@
 Image credits, PartyChef
-images/grill-steaks.jpg — Grilled steaks — source: PartyChef, LLC
+images/grill-steaks-crop.jpg — Grilled steaks (cropped) — source: PartyChef, LLC
 images/chef-greg.jpg — Chef Greg — source: PartyChef, LLC
+images/chef-greg-portrait.jpg — Chef Greg, portrait crop — source: PartyChef, LLC
 images/pork-chop-dinner.jpg — Smoked pork chop dinner — source: PartyChef, LLC
 images/creme-brulee.jpg — Crème brûlée dessert — source: PartyChef, LLC
 images/key-lime-pie.jpg — Key lime pie dessert — source: PartyChef, LLC

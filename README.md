@@ -1,4 +1,9 @@
-# PartyChef, LLC — speculative site preview (Dev Forge ZA)
-Live: https://rudsrudibotha.github.io/partychef-preview/
-Pages: index.html (hero, credentials, 3 services, private chef, story, Savory Swine, holiday office parties, truck teaser, FAQ, contact), food-truck.html (schedule + recent menu).
-Facts verified from https://gregschmelz.wixsite.com/mysite on 2026-09-28. Photos: business's own (see SOURCES.txt).
+# PartyChef, LLC website
+
+Live site: https://rudsrudibotha.github.io/partychef-preview/
+
+Pages:
+- index.html: hero, credentials, services, private chef, story, The Savory Swine, holiday office parties, food truck, FAQ, contact
+- food-truck.html: food truck schedule and menu
+
+Content follows the PartyChef, LLC website (gregschmelz.wixsite.com/mysite), checked on 1 October 2026. All photos belong to PartyChef, LLC; see SOURCES.txt for image credits.

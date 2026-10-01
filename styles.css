@@ -1,5 +1,5 @@
 :root{
-  --char:#1b1613; --char-2:#2a221d; --ember:#c65f2a; --ember-2:#e07a3f; --gold:#d8a55c;
+  --char:#1b1613; --char-2:#2a221d; --ember:#a84b1c; --ember-2:#b8551f; --gold:#d8a55c;
   --cream:#f7f0e5; --paper:#fbf7f0; --ink:#2b231e; --muted:#6d625a; --line:#e6dccd; --sage:#56614a;
   --radius:18px; --shadow:0 24px 60px -24px rgba(27,22,19,.45);
   --serif:"Fraunces", Georgia, "Times New Roman", serif; --sans:"Manrope", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
@@ -55,6 +55,8 @@ em.accent,h1 em,h2 em{font-style:italic;font-weight:400;color:var(--ember)}
 .hero p.lede{color:rgba(255,255,255,.85);font-size:1.22rem}
 .cta-row{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
 .hero-note{background:rgba(247,240,229,.1);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(8px);border-radius:var(--radius);padding:1.5rem 1.6rem;font-family:var(--serif);font-size:1.18rem;line-height:1.4}
+.hero-note{display:flex;gap:1.1rem;align-items:center}
+.hero-note img{flex:none;width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);box-shadow:0 10px 24px -10px rgba(0,0,0,.6)}
 .hero-note span{display:block;font-family:var(--sans);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:.6rem}
 
 /* credentials */
@@ -118,7 +120,7 @@ section{padding:6.5rem 0}
 
 /* swine */
 .swine-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:4rem;align-items:center}
-.swine img{border-radius:var(--radius);box-shadow:var(--shadow);width:100%;aspect-ratio:4/3;object-fit:cover}
+.swine img{border-radius:var(--radius);box-shadow:var(--shadow);width:100%;max-width:960px;aspect-ratio:4/3;object-fit:cover}
 .tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.5rem}
 .tags span{border:1px solid var(--line);background:#fff;border-radius:999px;padding:.4rem .9rem;font-size:.86rem;font-weight:600}
 
@@ -135,7 +137,7 @@ section{padding:6.5rem 0}
 
 /* truck teaser */
 .truck{position:relative;color:#fff;background:var(--char);overflow:hidden}
-.truck > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35}
+.truck::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 12% 20%,rgba(198,95,42,.30),transparent 55%),radial-gradient(circle at 95% 100%,rgba(216,165,92,.16),transparent 50%)}
 .truck .wrap{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
 .truck h2 em{color:var(--gold)}
 .truck p{color:rgba(255,255,255,.82)}
@@ -162,7 +164,7 @@ details p{color:var(--muted);margin:.8rem 0 0;max-width:62ch}
 .contact::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 0%,rgba(255,255,255,.18),transparent 45%),radial-gradient(circle at 90% 100%,rgba(27,22,19,.35),transparent 50%)}
 .contact .wrap{position:relative}
 .contact h2{font-size:clamp(2.4rem,5.5vw,4.4rem)}
-.contact h2 em{color:var(--char)}
+.contact h2 em{color:#f7e3c4}
 .contact p{max-width:52ch;margin:0 auto 2rem;color:rgba(255,255,255,.9)}
 .contact-tiles{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap}
 .tile{background:rgba(27,22,19,.18);border:1px solid rgba(255,255,255,.3);border-radius:16px;padding:1.2rem 1.6rem;text-decoration:none;text-align:left;min-width:270px;transition:background .2s}
@@ -179,7 +181,7 @@ footer{background:var(--char);color:rgba(239,230,216,.7);padding:3.5rem 0 6rem;f
 .foot li{margin:.3rem 0}
 .foot a{text-decoration:none}
 .foot a:hover{color:var(--gold)}
-.disclaimer{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;padding-top:1.4rem;font-size:.78rem;opacity:.7}
+.disclaimer{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;padding-top:1.4rem;font-size:.78rem;opacity:.9}
 
 /* mobile call bar */
 .callbar{display:none}
@@ -271,3 +273,20 @@ footer{background:var(--char);color:rgba(239,230,216,.7);padding:3.5rem 0 6rem;f
 .truck .next-stop p,.next-stop .fine{color:var(--muted)}
 .next-stop a{color:var(--ember);font-weight:700}
 .next-stop b{color:var(--ink)}
+.next-stop .cal b{color:#fff}
+
+/* 390px: Chef Greg's portrait note sits on the hero photo, inside the first screen */
+@media (max-width:560px){
+  .hero-note{position:absolute;left:0;right:0;bottom:calc(100% + .9rem);max-width:none;padding:.8rem .95rem;font-size:.98rem;line-height:1.35;gap:.85rem;background:rgba(27,22,19,.62)}
+  .hero-note img{width:72px;height:72px;border-width:2px}
+  .hero-note span{margin-bottom:.3rem;font-size:.68rem}
+}
+/* holiday office party: popular options */
+.popular{margin:1.4rem 0;border-top:1px solid var(--line);padding-top:1.2rem}
+.popular-title{font-family:var(--serif);font-size:1.15rem;font-weight:600;margin:0 0 .8rem}
+.popular-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.popular-grid b{display:block;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ember);margin-bottom:.35rem}
+.popular-grid ul{list-style:none;margin:0;padding:0;font-size:.92rem;line-height:1.45}
+.popular-grid li{margin:.25rem 0}
+@media (max-width:1020px) and (min-width:861px){.popular-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.popular-grid{grid-template-columns:1fr 1fr}}

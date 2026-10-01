@@ -2,7 +2,9 @@ Image credits, PartyChef
 images/grill-steaks-crop.jpg — Grilled steaks (cropped) — source: PartyChef, LLC
 images/chef-greg.jpg — Chef Greg — source: PartyChef, LLC
 images/chef-greg-portrait.jpg — Chef Greg, portrait crop — source: PartyChef, LLC
-images/pork-chop-dinner.jpg — Smoked pork chop dinner — source: PartyChef, LLC
+images/cheeseburger.jpg — Burger with cheese, lettuce and tomato — source: PartyChef, LLC
+images/pork-chop-plate-mac.jpg — Pork chop with mac and cheese and baked beans (crop of pork chop dinner photo) — source: PartyChef, LLC
+images/pork-chop-plate-beans.jpg — Pork chop with mashed potatoes and green beans (crop of pork chop dinner photo) — source: PartyChef, LLC
 images/creme-brulee.jpg — Crème brûlée dessert — source: PartyChef, LLC
 images/key-lime-pie.jpg — Key lime pie dessert — source: PartyChef, LLC
 images/meat-display.jpg — Display of prepared meats — source: PartyChef, LLC

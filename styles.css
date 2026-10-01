@@ -161,15 +161,15 @@ details p{color:var(--muted);margin:.8rem 0 0;max-width:62ch}
 
 /* contact */
 .contact{background:var(--ember);color:#fff;text-align:center;position:relative;overflow:hidden}
-.contact::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 0%,rgba(255,255,255,.18),transparent 45%),radial-gradient(circle at 90% 100%,rgba(27,22,19,.35),transparent 50%)}
+.contact::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 90% 100%,rgba(27,22,19,.35),transparent 50%),radial-gradient(circle at 10% 0%,rgba(27,22,19,.12),transparent 45%)}
 .contact .wrap{position:relative}
 .contact h2{font-size:clamp(2.4rem,5.5vw,4.4rem)}
 .contact h2 em{color:#f7e3c4}
-.contact p{max-width:52ch;margin:0 auto 2rem;color:rgba(255,255,255,.9)}
+.contact p{max-width:52ch;margin:0 auto 2rem;color:#fff}
 .contact-tiles{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap}
 .tile{background:rgba(27,22,19,.18);border:1px solid rgba(255,255,255,.3);border-radius:16px;padding:1.2rem 1.6rem;text-decoration:none;text-align:left;min-width:270px;transition:background .2s}
 .tile:hover{background:var(--char)}
-.tile small{display:block;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;opacity:.8;font-weight:700}
+.tile small{display:block;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:#fff;font-weight:700}
 .tile b{font-family:var(--serif);font-size:1.45rem;font-weight:500}
 
 /* footer */
@@ -290,3 +290,13 @@ footer{background:var(--char);color:rgba(239,230,216,.7);padding:3.5rem 0 6rem;f
 .popular-grid li{margin:.25rem 0}
 @media (max-width:1020px) and (min-width:861px){.popular-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:480px){.popular-grid{grid-template-columns:1fr 1fr}}
+
+/* contrast round (1 Oct): solid backings for small text over photos */
+@media (min-width:561px){.hero::after{background:linear-gradient(180deg,rgba(27,22,19,.4) 0%,rgba(27,22,19,.3) 35%,rgba(27,22,19,.9) 88%),linear-gradient(90deg,rgba(27,22,19,.85),rgba(27,22,19,.35) 60%,rgba(27,22,19,.15) 85%)}}
+.hero .eyebrow,.page-hero .eyebrow{width:fit-content;max-width:100%;background:rgba(27,22,19,.88);padding:.5rem 1rem .5rem .85rem;border-radius:999px;line-height:1.5}
+.hero-note{background:rgba(27,22,19,.88);border-color:rgba(216,165,92,.35)}
+.page-hero > img{opacity:.38}
+.page-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(27,22,19,.7),rgba(27,22,19,.25) 80%)}
+.page-hero .wrap{z-index:1}
+.page-hero p:not(.eyebrow){color:#fff}
+.page-hero p.eyebrow{font-size:.78rem}
